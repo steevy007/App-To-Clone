@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyDialogFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/message_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color_600"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <info.atalou.apps.hangovertickets.font.MaterialDesignIconsTextView
+                    android:id="@+id/message_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/material_icon_info_box"
+                    android:textColor="@color/main_color_300"
+                    android:textSize="96sp" />
+
+                <info.atalou.apps.hangovertickets.font.RobotoTextView
+                    android:id="@+id/message_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ticket_stat_warning"
+                    android:textColor="@color/main_color_300"
+                    android:textSize="24sp"
+                    app:typeface="robotoBlack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="12dp" >
+
+                <info.atalou.apps.hangovertickets.font.RobotoTextView
+                    android:id="@+id/messages_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ticket_messages"
+                    android:textColor="@color/main_color_grey_600"
+                    android:textSize="16sp"
+                    app:typeface="robotoLight" />
+
+
+                <info.atalou.apps.hangovertickets.font.RobotoTextView
+                    android:id="@+id/ticket_barcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="@string/ticket_code"
+                    android:textColor="@color/main_color_grey_600"
+                    android:textSize="32sp"
+                    app:typeface="robotoRegular" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/color_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_color_grey_900"
+                android:gravity="right" >
+
+                <info.atalou.apps.hangovertickets.font.RobotoTextView
+                    android:id="@+id/ticket_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/selector_dialog_warning"
+                    android:gravity="center"
+                    android:minWidth="64dp"
+                    android:textAllCaps="true"
+                    android:padding="8dp"
+                    android:text="@string/ticket_day"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    app:typeface="robotoBoldCondensed" />
+
+                <info.atalou.apps.hangovertickets.font.RobotoTextView
+                    android:id="@+id/ticket_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/selector_dialog_warning"
+                    android:gravity="center"
+                    android:minWidth="64dp"
+                    android:padding="8dp"
+                    android:textAllCaps="true"
+                    android:text="@string/ticket_cat"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    app:typeface="robotoBoldCondensed" />
+
+
+                <info.atalou.apps.hangovertickets.font.RobotoTextView
+                    android:id="@+id/ticket_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@color/main_color_grey_900"
+                    android:gravity="center"
+                    android:minWidth="64dp"
+                    android:padding="8dp"
+                    android:textAllCaps="true"
+                    android:textSize="22sp"
+                    app:typeface="robotoBoldCondensed" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_color_grey_900"
+            android:padding="8dp"
+            android:gravity="center" >
+            <info.atalou.apps.hangovertickets.font.RobotoTextView
+                android:id="@+id/messages_ticket_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ticket_scanned"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:typeface="robotoLight" />
+        </LinearLayout>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:layout_marginLeft="22dp"-->
+                <!--android:layout_marginRight="22dp"-->
+                <!--android:background="@color/main_color_grey_300" />-->
+
+            <!--<info.atalou.apps.hangovertickets.view.MaterialRippleLayout-->
+                <!--style="@style/RippleStyle"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/selector_background_empty" >-->
+
+                <!--<info.atalou.apps.hangovertickets.font.RobotoTextView-->
+                    <!--android:id="@+id/dialog_travel_ok"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--android:text="@string/ok"-->
+                    <!--android:textColor="@color/main_color_600"-->
+                    <!--android:textSize="14sp"-->
+                    <!--app:typeface="robotoRegular" />-->
+            <!--</info.atalou.apps.hangovertickets.view.MaterialRippleLayout>-->
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

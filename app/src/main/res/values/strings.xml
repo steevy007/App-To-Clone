@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Hangover Tickets</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan_barcode">Scan the Ticket</string>
+
+
+    <!-- -->
+    <string name="validate">Valid</string>
+    <string name="warning">Warning</string>
+    <string name="not_exist">Not Exist</string>
+    <string name="error_day">Wrong Date</string>
+    <string name="error_entrance">Wrong Gate</string>
+
+    <string name="error_both">Oops! Wrong Date/Gate</string>
+
+
+    <string name="validate_icon">&#xe867;</string>
+    <string name="warning_icon">&#xe8e9;</string>
+    <string name="not_exist_icon">&#xe882;</string>
+    <string name="error_day_icon">&#xe846;</string>
+    <string name="error_entrance_icon">&#xe9f8;</string>
+
+
+    <string name="validate_msg">Valid! Enjoy your day</string>
+    <string name="warning_msg">This Ticket ID has been scanned</string>
+    <string name="not_exist_msg">This Ticket ID Not Exist</string>
+    <string name="error_day_msg">Wrong Date! Verify your ticket</string>
+    <string name="error_entrance_msg">You can\'t have access to this area</string>
+
+    <string name="error_both_msg">Wrong Date! Verify your ticket. You can\'t have access to this area</string>
+
+
+
+
+    <!-- -->
+    <string name="title_preferences">Preferences</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_title_day">Day</string>
+    <string name="pref_title_gate">Gate</string>
+
+
+
+
+    <!-- Summary -->
+    <string name="summary_pref_title_gate">Specify your default Gate</string>
+    <string name="summary_pref_title_day">Specify your default Day</string>
+
+
+    <!-- Key -->
+    <string name="key_pref_gate">key_pref_gate</string>
+    <string name="key_pref_day">key_pref_day</string>
+
+
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_header_about">About</string>
+    <string name="pref_header_server">URL of the server</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">1.0.1</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_version">Version</string>
+
+
+
+    <!-- Dialog String -->
+    <string name="ticket_code">Ticket ID</string>
+    <string name="ticket_stat_validate">Validate</string>
+    <string name="ticket_stat_warning">Warning</string>
+    <string name="ticket_stat_info">Information</string>
+    <string name="ticket_stat_denied">Denied</string>
+    <string name="ticket_messages">Message Text</string>
+    <string name="ticket_scanned">Scanned at</string>
+    <string name="ticket_day">Day</string>
+    <string name="ticket_cat">Gate</string>
+
+
+    <!-- Material Design Icons -->
+    <string name="material_icon_account">&#xe800;</string>
+    <string name="material_icon_account_multiple">&#xe8dc;</string>
+    <string name="material_icon_bookmark">&#xe921;</string>
+    <string name="material_icon_bike">&#xe915;</string>
+    <string name="material_icon_box_full">&#xe86b;</string>
+    <string name="material_icon_clock">&#xe881;</string>
+    <string name="material_icon_check">&#xe867;</string>
+    <string name="material_icon_checked_full">&#xe86f;</string>
+    <string name="material_icon_check_empty">&#xe86a;</string>
+    <string name="material_icon_check_full">&#xe86e;</string>
+    <string name="material_icon_city">&#xe878;</string>
+    <string name="material_icon_cart">&#xe857;</string>
+    <string name="material_icon_chevron_down">&#xe874;</string>
+    <string name="material_icon_chevron_up">&#xe877;</string>
+    <string name="material_icon_date">&#xe848;</string>
+    <string name="material_icon_drink">&#xea08;</string>
+    <string name="material_icon_dollar">&#xe892;</string>
+    <string name="material_icon_email">&#xe99c;</string>
+    <string name="material_icon_eat">&#xeac6;</string>
+    <string name="material_icon_friends">&#xe8d5;</string>
+    <string name="material_icon_flag">&#xe96a;</string>
+    <string name="material_icon_favorite">&#xe9b6;</string>
+    <string name="material_icon_go">&#xea04;</string>
+    <string name="material_icon_go_left">&#xe875;</string>
+    <string name="material_icon_go_right">&#xe876;</string>
+    <string name="material_icon_home_variant">&#xe9bd;</string>
+    <string name="material_icon_home">&#xe9be;</string>
+    <string name="material_icon_hotels">&#xeae3;</string>
+    <string name="material_icon_heart_outline">&#xe9b3;</string>
+    <string name="material_icon_headphones">&#xe9b1;</string>
+    <string name="material_icon_human">&#xe9c5;</string>
+    <string name="material_icon_headline">&#xeb40;</string>
+    <string name="material_icon_image_box">&#xe952;</string>
+    <string name="material_icon_info">&#xe9d4;</string>
+    <string name="material_icon_info_box">&#xe896;</string>
+    <string name="material_icon_like">&#xeb03;</string>
+    <string name="material_icon_line_spacing">&#xe988;</string>
+    <string name="material_icon_note">&#xea23;</string>
+    <string name="material_icon_message">&#xea12;</string>
+    <string name="material_icon_play">&#xe831;</string>
+    <string name="material_icon_play_single">&#xea7d;</string>
+    <string name="material_icon_play_square">&#xea7a;</string>
+    <string name="material_icon_play_circle">&#xea7b;</string>
+    <string name="material_icon_play_outline">&#xea7b;</string>
+    <string name="material_icon_pig">&#xea72;</string>
+    <string name="material_icon_password">&#xe9fa;</string>
+    <string name="material_icon_plus_box">&#xea7f;</string>
+    <string name="material_icon_party">&#xe937;</string>
+    <string name="material_icon_point_empty">&#xe868;</string>
+    <string name="material_icon_point_full">&#xe869;</string>
+    <string name="material_icon_star_outline">&#xeade;</string>
+    <string name="material_icon_star_half">&#xeadd;</string>
+    <string name="material_icon_star">&#xeadf;</string>
+    <string name="material_icon_share">&#xeac0;</string>
+    <string name="material_icon_skip_next">&#xeaca;</string>
+    <string name="material_icon_skip_previous">&#xeacb;</string>
+    <string name="material_icon_soundcloud">&#xead3;</string>
+    <string name="material_icon_statistics">&#xea87;</string>
+    <string name="material_icon_shop">&#xe858;</string>
+    <string name="material_icon_sleep">&#xe9c2;</string>
+    <string name="material_icon_settings">&#xeabe;</string>
+    <string name="material_icon_state">&#xeb62;</string>
+    <string name="material_icon_to_left">&#xe876;</string>
+    <string name="material_icon_video">&#xeb39;</string>
+    <string name="material_icon_undo">&#xeb2c;</string>
+    <string name="material_icon_unfold_more">&#xeb2f;</string>
+    <string name="material_icon_w_shop">&#xeb4f;</string>
+    <string name="material_icon_cloud_univ_first">&#xeb54;</string>
+    <string name="material_icon_cloud_univ_second">&#xeb5a;</string>
+    <string name="material_icon_cloud_univ_third">&#xeb55;</string>
+    <string name="ok">OK</string>
+    <string name="default_server_link">http://192.168.1.1/</string>
+    <string name="key_server_link">server_link</string>
+    <string name="title_server_link">Enter the address of the server</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <ListPreference
+            android:defaultValue="date_1"
+            android:dialogTitle="@string/pref_title_day"
+            android:entries="@array/pref_day_entries"
+            android:entryValues="@array/pref_day_values"
+            android:key="@string/key_pref_day"
+            android:summary="@string/summary_pref_title_day"
+            android:title="@string/pref_title_day" />
+
+        <ListPreference
+            android:defaultValue="vip"
+            android:dialogTitle="@string/pref_title_gate"
+            android:entries="@array/pref_gate_entries"
+            android:entryValues="@array/pref_gate_values"
+            android:key="@string/key_pref_gate"
+            android:summary="@string/summary_pref_title_gate"
+            android:title="@string/pref_title_gate" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:action="android.intent.action.VIEW"
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/pref_header_server">-->
+
+        <!--<EditTextPreference-->
+            <!--android:defaultValue="@string/default_server_link"-->
+            <!--android:key="@string/key_server_link"-->
+            <!--android:summary="@string/default_server_link"-->
+            <!--android:title="@string/title_server_link" />-->
+
+    <!--</PreferenceCategory>-->
+</PreferenceScreen>
